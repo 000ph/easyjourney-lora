@@ -13,7 +13,7 @@ $ npm install https://github.com/moloto0v/easyjourney-lora
 
 ```js
 const { Client } = require("easyjourney-lora");
-const client = new Client();
+const client = new Client("Your Access Token Here");
 
 const imagine = async () => {
   const image = await client.imagine({
