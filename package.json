@@ -1,5 +1,5 @@
 {
-  "name": "easyjorney-lora",
+  "name": "easyjourney-lora",
   "version": "0.0.1",
   "description": "A Simple library that wraps Openjourney-lora API.",
   "main": "src",
