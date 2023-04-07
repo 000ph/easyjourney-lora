@@ -1,3 +1,5 @@
+import Client from "../structures/Client";
+
 export interface ClientConstructorParams {
   accessToken: string;
 }

@@ -1,6 +1,6 @@
 const constants = require("../util/constants");
 
-module.exports = class Client {
+class Client {
   /**
    *
    * @param {import("../types").ClientConstructorParams} param0
@@ -24,4 +24,6 @@ module.exports = class Client {
     const response = await res.blob();
     return response;
   }
-};
+}
+
+module.exports = { Client };
